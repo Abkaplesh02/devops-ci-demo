@@ -16,4 +16,4 @@ jobs:
       - name: Run script
         run: |
           echo "Pipeline is running..."
-          bash script.sh
+          bash scripiit.sh
