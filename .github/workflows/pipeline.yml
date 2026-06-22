@@ -26,7 +26,6 @@ jobs:
       - name: Run script
         run: |
           echo "🚀 Running application..."
-          exit 1
 
       - name: Build Docker image
         run: | 
