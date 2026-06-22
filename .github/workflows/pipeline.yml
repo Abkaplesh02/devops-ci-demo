@@ -17,9 +17,10 @@ jobs:
         run: |
           echo "🔨 Building application..."
           echo "Build successful"
+          exit 1
 
       - name: Test step
-        run: |
+        run: |  
           echo "🧪 Running tests..."
           echo "All tests passed"
 
