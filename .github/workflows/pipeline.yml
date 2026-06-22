@@ -26,4 +26,7 @@ jobs:
       - name: Run script
         run: |
           echo "🚀 Running application..."
-          bash script.sh
+
+      - name: Build Docker image
+        run: | 
+          docker build -t my-app .
