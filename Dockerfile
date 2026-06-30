@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["sleep","1000"]
+CMD ["sleep","365d"]
